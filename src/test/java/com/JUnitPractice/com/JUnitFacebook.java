@@ -16,13 +16,13 @@ public class JUnitFacebook extends Parents{
 	@Test
 	public void MainPage() {
 		openFacebook("http://www.facebook.com");
-		enterCredentials("user","pass");
+		enterCredentials("user11","pass22");
 		validateMainPage();
 	}
 	@Test
 	public void exitfacebook() {
 		openFacebook("http://www.facebook.com");
-		enterCredentials("user","pass");
+		enterCredentials("user11","pass22");
 		logOut();
 	}
 	
