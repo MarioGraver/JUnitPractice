@@ -11,18 +11,18 @@ public class JUnitFacebook extends Parents{
 	@Test
 	public void Credentials() {
 		openFacebook("http://www.facebook.com");
-		enterCredentials("alberto.graver@gmail.com","Albertano@123");
+		enterCredentials("user","pass");
 	}
 	@Test
 	public void MainPage() {
 		openFacebook("http://www.facebook.com");
-		enterCredentials("alberto.graver@gmail.com","Albertano@123");
+		enterCredentials("user","pass");
 		validateMainPage();
 	}
 	@Test
 	public void exitfacebook() {
 		openFacebook("http://www.facebook.com");
-		enterCredentials("alberto.graver@gmail.com","Albertano@123");
+		enterCredentials("user","pass");
 		logOut();
 	}
 	
